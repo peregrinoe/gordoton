@@ -1,0 +1,59 @@
+
+@media only screen and (max-width: 750px) {
+    
+    .poke-type{
+        width: 40%;
+    }
+
+    .poke-stats{
+        width: 95%;
+        font-size: 1.1em;
+        font-weight: bolder;
+    }
+
+    .searchPokemon{
+        margin-right: 10px;
+    }
+    
+    .info-user-next{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}    
+
+@media only screen and (max-width: 550px) {
+
+    .name-pokemon{
+        font-size: 18px;
+    }
+
+    .poke-stats{
+        font-size: .9em;
+        font-weight: bolder;
+    }
+
+    .card-pokemon{
+        width: 92%;
+    }
+       
+}   
+
+@media only screen and (max-width: 375px) {
+    
+    .card-pokemon{
+        width: 95%;
+    }
+       
+    .poke-stats{
+        width: 94%;
+        font-size: .75em;
+    }
+}   
+  
+@media only screen and (max-width: 330px) {
+    
+    .poke-stats{  
+        margin-top: 2px;
+    }
+       
+}
